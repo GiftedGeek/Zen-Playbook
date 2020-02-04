@@ -1,2 +1,2 @@
 
-[isEven.html](JS-Playbook/isEven.html)
+[isEven.html](..blob/master/JS-Playbook/isEven.html)
