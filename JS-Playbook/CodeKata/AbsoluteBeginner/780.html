@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>780</title>
+</head>
+
+<body>
+    <script>
+        var principleAMount, interestRate, time;
+        principleAMount = prompt();
+        interestRate = prompt();
+        time = prompt();
+
+        function simpleInterest(principleAmount, interestRate, time) {
+            var interest = (principleAmount * time * interestRate) / 100;
+            var roundInterest = interest.toFixed(2);
+            console.log(roundInterest);
+        }
+
+        simpleInterest(principleAMount, interestRate, time);
+    </script>
+</body>
+
+</html>
